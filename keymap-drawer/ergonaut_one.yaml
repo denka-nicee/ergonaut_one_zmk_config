@@ -12,18 +12,18 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: Gui}
+  - '['
   - {t: '`', h: Ctrl}
-  - {t: A, h: LEFT META}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: Ctrl}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT META}
+  - J
+  - K
+  - L
+  - ;
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
   - Z
@@ -42,7 +42,7 @@ layers:
   - {t: ↹, h: SYM}
   - {t: ⏎, h: SYM}
   - {t: ⌫, h: Shift}
-  - {t: DELETE, h: NUM}
+  - {t: ⌦, h: NUM}
   SYM:
   - {t: F1, h: Gui}
   - F2
@@ -133,13 +133,13 @@ layers:
   - Boot
   - '&studio_unlock'
   - ''
-  - BRI DEC
-  - BRI UP
-  - AC DESKTOP SHOW ALL WINDOWS
-  - AC DESKTOP SHOW ALL APPLICATIONS
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&studio_unlock'
   - Boot
   - BT CLR
@@ -161,9 +161,9 @@ layers:
   - ''
   - ''
   - ''
-  - PLAY PAUSE
-  - ⏮️
-  - ⏭️
+  - ''
+  - ''
+  - ''
   - ''
   - Reset
   - {type: held}
