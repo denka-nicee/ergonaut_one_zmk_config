@@ -12,18 +12,18 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: Gui}
   - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: Gui}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
+  - {t: F, h: Shift}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: Shift}
+  - {t: K, h: Ctrl}
+  - {t: L, h: Alt}
+  - {t: ;, h: Gui}
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
   - Z
