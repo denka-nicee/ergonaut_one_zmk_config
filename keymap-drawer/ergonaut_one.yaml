@@ -1,5 +1,6 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
-  default:
+  MAIN:
   - {t: ']', h: Gui}
   - Q
   - W
@@ -11,18 +12,18 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: Gui}
   - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT META}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT META}
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
   - Z
@@ -36,13 +37,13 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: Esc, h: NUM}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
+  - {t: ↹, h: SYM}
+  - {t: ⏎, h: SYM}
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  lower:
+  - {t: DELETE, h: NUM}
+  SYM:
   - {t: F1, h: Gui}
   - F2
   - F3
@@ -85,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  NUM:
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
@@ -128,18 +129,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  ADJ:
   - Boot
+  - '&studio_unlock'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BRI DEC
+  - BRI UP
+  - AC DESKTOP SHOW ALL WINDOWS
+  - AC DESKTOP SHOW ALL APPLICATIONS
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - '&studio_unlock'
   - Boot
   - BT CLR
   - BT 1
@@ -160,9 +161,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - PLAY PAUSE
+  - ⏮️
+  - ⏭️
   - ''
   - Reset
   - {type: held}
