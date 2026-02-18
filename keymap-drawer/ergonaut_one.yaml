@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Shift
   - {t: ▽, type: trans}
   NUM_W:
   - {t: KP NUM, h: Gui}
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Shift
   - {t: ▽, type: trans}
   MAC:
   - {t: ']', h: Ctrl}
@@ -213,7 +213,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Shift
   - {t: ▽, type: trans}
   NUM_M:
   - {t: KP NUM, h: Ctrl}
@@ -256,7 +256,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Shift
   - {t: ▽, type: trans}
   ADJ:
   - Boot
